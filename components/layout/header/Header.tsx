@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import OffcanvasMenu from "./OffcanvasMenu";
-import logo from "@/public/images/LogoMainWhite.png";
+import logo from "@/public/images/logo.png";
 import logoLight from "@/public/images/LogoMainWhite.png";
 import logoLightName from "@/public/images/logoWhite.png";
 
