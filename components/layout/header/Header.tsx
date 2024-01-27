@@ -90,7 +90,7 @@ const Header = () => {
                       {/* Sirigiri Software Solutions */}
                       <Image src={logoSrc} alt="Image" priority/>
                       {/* <Image className="logo-image" src={logoLightName} alt="Image" priority/> */}
-                      <span style={{color:'white', fontFamily:'serif', fontSize:'30px'}}>Sirigiri Software Solutions</span>
+                      <span style={{color:'white', fontFamily:'serif'}}>Sirigiri Software Solutions</span>
                     </Link>
                   </div>
                   <div className="navbar__options">
