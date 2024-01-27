@@ -132,7 +132,7 @@ const Footer = () => {
                           href="https://goo.gl/maps/16KHwiUcctAojuLj8"
                           target="_blank"
                         >
-                          2118 Thornridge Cir. Syre bint, Connecticut 35624
+                          G-2, Surya Kiran Apartments, Behind S R Nagar Police Station, Hyderabad, Telangana - 500038
                         </Link>
                       </p>
                     </div>
@@ -146,12 +146,7 @@ const Footer = () => {
                     <div className="content">
                       <h5 className="mt-8 fm fw-6 text-white mb-24">Phone</h5>
                       <p className="text-quinary mb-12">
-                        <Link href="tel:123-456-789">(USA) +123 456 789</Link>
-                      </p>
-                      <p className="text-quinary">
-                        <Link href="tel:123-456-789">
-                          (CANADA) +231 2415 7645
-                        </Link>
+                        <Link href="tel:888-608-7474">+91 888 608 7474</Link>
                       </p>
                     </div>
                   </div>
@@ -164,13 +159,8 @@ const Footer = () => {
                     <div className="content">
                       <h5 className="mt-8 fm fw-6 text-white mb-24">Email</h5>
                       <p className="text-quinary mb-12 text-lowercase">
-                        <Link href="mailto:email.@gmail.com">
-                          hello.email.@gmail.com
-                        </Link>
-                      </p>
-                      <p className="text-quinary text-lowercase">
-                        <Link href="mailto:email.@gmail.com">
-                          email.@gmail.com
+                        <Link href="mailto:info@sirigirisoftwaresolutions.com">
+                          info@sirigirisoftwaresolutions.com
                         </Link>
                       </p>
                     </div>
