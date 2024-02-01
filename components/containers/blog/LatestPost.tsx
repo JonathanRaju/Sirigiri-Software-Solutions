@@ -4,10 +4,13 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import one from "@/public/images/blog/related-one.png";
-import two from "@/public/images/blog/related-two.png";
-import three from "@/public/images/blog/related-three.png";
-import four from "@/public/images/blog/related-four.png";
+import one from "@/public/images/blog/educational.png";
+import two from "@/public/images/blog/banks.jpg";
+import three from "@/public/images/blog/life_insurance.png";
+import four from "@/public/images/blog/hospital.jpg";
+import five from "@/public/images/blog/travel.png";
+import six from "@/public/images/blog/Entertainment.png";
+import seven from "@/public/images/blog/e_commerce.png";
 
 const LatestPost = () => {
   return (
@@ -75,7 +78,9 @@ const LatestPost = () => {
                         </div>
                         <h5 className="mt-8 fw-5 text-secondary">
                           <Link href="blog-single">
-                            Tackling data of annotation problems in healthcare
+                            Lifelong learning, extending beyond formal
+                            education, is crucial in today's rapidly changing
+                            world.
                           </Link>
                         </h5>
                       </div>
@@ -107,7 +112,9 @@ const LatestPost = () => {
                         </div>
                         <h5 className="mt-8 fw-5 text-secondary">
                           <Link href="blog-single">
-                            Tackling data of annotation problems in healthcare
+                            Banks play a vital role in the economy, offering
+                            financial services like saving accounts, loans, and
+                            mortgages.
                           </Link>
                         </h5>
                       </div>
@@ -139,7 +146,9 @@ const LatestPost = () => {
                         </div>
                         <h5 className="mt-8 fw-5 text-secondary">
                           <Link href="blog-single">
-                            Tackling data of annotation problems in healthcare
+                            Life insurance provides financial security to an
+                            individual's family in the event of their untimely
+                            passing.
                           </Link>
                         </h5>
                       </div>
@@ -171,7 +180,8 @@ const LatestPost = () => {
                         </div>
                         <h5 className="mt-8 fw-5 text-secondary">
                           <Link href="blog-single">
-                            Tackling data of annotation problems in healthcare
+                            Hospitals are essential for healthcare, offering
+                            emergency, surgical, and therapeutic services.
                           </Link>
                         </h5>
                       </div>
@@ -203,7 +213,8 @@ const LatestPost = () => {
                         </div>
                         <h5 className="mt-8 fw-5 text-secondary">
                           <Link href="blog-single">
-                            Tackling data of annotation problems in healthcare
+                            Lifelong learning, extending beyond formal
+                            education, is crucial in today's rapidly changing
                           </Link>
                         </h5>
                       </div>
@@ -235,7 +246,9 @@ const LatestPost = () => {
                         </div>
                         <h5 className="mt-8 fw-5 text-secondary">
                           <Link href="blog-single">
-                            Tackling data of annotation problems in healthcare
+                          Banks play a vital role in the economy, offering
+                            financial services like saving accounts, loans, and
+                            mortgages.
                           </Link>
                         </h5>
                       </div>
@@ -267,7 +280,9 @@ const LatestPost = () => {
                         </div>
                         <h5 className="mt-8 fw-5 text-secondary">
                           <Link href="blog-single">
-                            Tackling data of annotation problems in healthcare
+                          Life insurance provides financial security to an
+                            individual's family in the event of their untimely
+                            passing.
                           </Link>
                         </h5>
                       </div>
@@ -299,7 +314,8 @@ const LatestPost = () => {
                         </div>
                         <h5 className="mt-8 fw-5 text-secondary">
                           <Link href="blog-single">
-                            Tackling data of annotation problems in healthcare
+                          Hospitals are essential for healthcare, offering
+                            emergency, surgical, and therapeutic services.
                           </Link>
                         </h5>
                       </div>

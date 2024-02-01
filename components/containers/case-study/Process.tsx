@@ -9,10 +9,7 @@ const Process = () => {
                 Artificial intelligence Process
               </h2>
               <p className="cur-lg text-quinary">
-                Quisque varius malesuada dui, ut posuere purus gravida in.
-                Phasellus ultricies ullamcorper mollis. Pellentesque varius
-                lectus in massa placerat cursus. Donec in dictum nisl. In
-                maximus posuere leo nec porttitor.
+                Artificial intelligence (AI) involves the development of systems and algorithms that can perform tasks that typically require human intelligence.
               </p>
             </div>
           </div>
@@ -21,47 +18,42 @@ const Process = () => {
               <div className="process__single">
                 <span className="op-text text-white mb-40 cur-lg">01</span>
                 <h5 className="mt-8 text-white mb-24 title-anim">
-                  Computer Vision
+                  Problem Identification
                 </h5>
                 <p className="cur-lg text-quinary">
-                  Quisque varius malesuada dui, ut posuere purus gravida in.
-                  Phasellus ultricies ullamcorper mollis.
+                The first step is to identify a problem or task that can benefit from AI. This could range from natural language processing, image recognition, data analysis, or robotics, among others.
                 </p>
               </div>
               <div className="process__single">
                 <span className="op-text text-white mb-40 cur-lg">02</span>
                 <h5 className="mt-8 text-white mb-24 title-anim">
-                  Computer Vision
+                  Data Collection
                 </h5>
                 <p className="cur-lg text-quinary">
-                  Quisque varius malesuada dui, ut posuere purus gravida in.
-                  Phasellus ultricies ullamcorper mollis.
+                  Data is a crucial component of AI. You need to gather and organize relevant data for the AI system to learn from. High-quality and diverse data are essential for training robust AI models.
                 </p>
               </div>
               <div className="process__single">
                 <span className="op-text text-white mb-40 cur-lg">03</span>
-                <h5 className="mt-8 text-white mb-24 title-anim">3D Vision</h5>
+                <h5 className="mt-8 text-white mb-24 title-anim">Data Preprocessing</h5>
                 <p className="cur-lg text-quinary">
-                  Quisque varius malesuada dui, ut posuere purus gravida in.
-                  Phasellus ultricies ullamcorper mollis.
+                  Raw data often needs cleaning, transformation, and normalization to make it suitable for training. This step involves handling missing values, removing outliers, and preparing the data for model training.
                 </p>
               </div>
               <div className="process__single">
                 <span className="op-text text-white mb-40 cur-lg">04</span>
                 <h5 className="mt-8 text-white mb-24 title-anim">
-                  Computer Vision
+                  Feature Engineering
                 </h5>
                 <p className="cur-lg text-quinary">
-                  Quisque varius malesuada dui, ut posuere purus gravida in.
-                  Phasellus ultricies ullamcorper mollis.
+                  Feature engineering involves selecting, creating, or transforming the relevant features (attributes) from the data that will be used as input for the AI model. Effective feature engineering can significantly impact the model's performance.
                 </p>
               </div>
               <div className="process__single">
                 <span className="op-text text-white mb-40 cur-lg">05</span>
-                <h5 className="mt-8 text-white mb-24 title-anim">3D Vision</h5>
+                <h5 className="mt-8 text-white mb-24 title-anim">Model Selection</h5>
                 <p className="cur-lg text-quinary">
-                  Quisque varius malesuada dui, ut posuere purus gravida in.
-                  Phasellus ultricies ullamcorper mollis.
+                  Choose an appropriate machine learning or deep learning model architecture based on the problem you're trying to solve. Different tasks may require different types of models, such as decision trees, neural networks, or support vector machines.
                 </p>
               </div>
             </div>

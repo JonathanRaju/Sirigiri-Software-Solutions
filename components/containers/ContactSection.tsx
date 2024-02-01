@@ -2,6 +2,7 @@
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import thumb from "@/public/images/contact-thumb.png";
+import ourProject from "@/public/images/ProjectDiscussion.png"
 
 const ContactSection = () => {
   const pathname = usePathname();
@@ -70,7 +71,7 @@ const ContactSection = () => {
               <div className="parallax-image-wrap">
                 <div className="parallax-image-inner">
                   <Image
-                    src={thumb}
+                    src={ourProject}
                     className="w-100 parallax-image"
                     alt="Image"
                   />

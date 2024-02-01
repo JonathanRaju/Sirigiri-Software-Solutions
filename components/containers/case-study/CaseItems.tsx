@@ -2,14 +2,14 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import one from "@/public/images/case/one.png";
-import two from "@/public/images/case/two.png";
-import three from "@/public/images/case/three.png";
-import four from "@/public/images/case/four.png";
-import five from "@/public/images/case/five.png";
-import six from "@/public/images/case/six.png";
-import seven from "@/public/images/case/seven.png";
-import eight from "@/public/images/case/eight.png";
+import AI_3D from "@/public/images/case/3D_AI.png";
+import Graphics_3D from "@/public/images/case/3D_Graphics.png";
+import UI_UX from "@/public/images/case/UI_UX.png";
+import Photography from "@/public/images/case/PhotographyOne.png";
+import MedicalProduct from "@/public/images/case/MedicalProduct.png";
+import Iconset from "@/public/images/case/Iconset.png";
+import User_Experience from "@/public/images/case/User_Experience.png";
+import UX_RoadMap from "@/public/images/case/UX_RoadMap.png";
 import thirteen from "@/public/images/case/thirteen.png";
 import fourteen from "@/public/images/case/fourteen.png";
 import fifteen from "@/public/images/case/fifteen.png";
@@ -84,8 +84,8 @@ const CaseItems = () => {
                       <div className="thumb mb-24">
                         <Link href="case-study-single" className="w-100">
                           <Image
-                            src={two}
-                            className="w-100 mh-300 "
+                            src={Graphics_3D}
+                            className="c-study-img"
                             alt="Image"
                           />
                         </Link>
@@ -107,15 +107,15 @@ const CaseItems = () => {
                       <div className="thumb mb-24">
                         <Link href="case-study-single" className="w-100">
                           <Image
-                            src={one}
-                            className="w-100 mh-300 "
+                            src={AI_3D}
+                            className="c-study-img"
                             alt="Image"
                           />
                         </Link>
                       </div>
                       <div className="content">
                         <Link href="case-study" className="mb-30 fw-6">
-                          3D Render
+                          AI
                         </Link>
                         <h4 className="fw-6 mt-8 text-secondary">
                           <Link href="case-study-single">
@@ -129,10 +129,10 @@ const CaseItems = () => {
                   <div className="col-12 col-lg-6">
                     <div className="c-study-single">
                       <div className="thumb mb-24">
-                        <Link href="case-study-single" className="w-100">
+                        <Link href="case-study-single">
                           <Image
-                            src={three}
-                            className="w-100 mh-300 "
+                            src={UI_UX}
+                            className="c-study-img"
                             alt="Image"
                           />
                         </Link>
@@ -155,8 +155,8 @@ const CaseItems = () => {
                       <div className="thumb mb-24">
                         <Link href="case-study-single" className="w-100">
                           <Image
-                            src={four}
-                            className="w-100 mh-300 "
+                            src={Photography}
+                            className="c-study-img"
                             alt="Image"
                           />
                         </Link>
@@ -178,8 +178,8 @@ const CaseItems = () => {
                       <div className="thumb mb-24">
                         <Link href="case-study-single" className="w-100">
                           <Image
-                            src={five}
-                            className="w-100 mh-300 "
+                            src={MedicalProduct}
+                            className="c-study-img"
                             alt="Image"
                           />
                         </Link>
@@ -202,8 +202,8 @@ const CaseItems = () => {
                       <div className="thumb mb-24">
                         <Link href="case-study-single" className="w-100">
                           <Image
-                            src={six}
-                            className="w-100 mh-300 "
+                            src={Iconset}
+                            className="c-study-img"
                             alt="Image"
                           />
                         </Link>
@@ -225,8 +225,8 @@ const CaseItems = () => {
                       <div className="thumb mb-24">
                         <Link href="case-study-single" className="w-100">
                           <Image
-                            src={seven}
-                            className="w-100 mh-300 "
+                            src={User_Experience}
+                            className="c-study-img"
                             alt="Image"
                           />
                         </Link>
@@ -249,8 +249,8 @@ const CaseItems = () => {
                       <div className="thumb mb-24">
                         <Link href="case-study-single" className="w-100">
                           <Image
-                            src={eight}
-                            className="w-100 mh-300 "
+                            src={UX_RoadMap}
+                            className="c-study-img"
                             alt="Image"
                           />
                         </Link>
@@ -261,7 +261,7 @@ const CaseItems = () => {
                         </Link>
                         <h4 className="fw-6 mt-8 text-secondary">
                           <Link href="case-study-single">
-                            UX site rode map app product design system
+                            UX site road map app product design system
                           </Link>
                         </h4>
                       </div>
