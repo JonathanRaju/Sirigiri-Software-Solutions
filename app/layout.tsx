@@ -35,8 +35,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Sirigiri Software Solutions | Software Development & It Solutions React NextJs Template",
-  description: "Software Development & IT Solutions React NextJs Template",
+  title: "Sirigiri Software Solutions | Software Development & It Solutions ",
+  description: "Software Development & IT Solutions",
   keywords: [
     "Software",
     "IT",
@@ -45,12 +45,6 @@ export const metadata: Metadata = {
     "Typescript",
     "React",
     "nextjs",
-  ],
-  authors: [
-    {
-      name: "Pixelaxis",
-      url: "https://themeforest.net/user/pixelaxis",
-    },
   ],
 };
 
