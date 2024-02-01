@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import thumb from "@/public/images/start-thumb.png";
+import allStart from "@/public/images/AllStarted.png"
 
 const AboutStarter = () => {
   return (
@@ -37,8 +37,8 @@ const AboutStarter = () => {
                     <div className="parallax-image-wrap">
                       <div className="parallax-image-inner">
                         <Image
-                          src={thumb}
-                          className="mh-300 unset parallax-image"
+                          src={allStart}
+                          className="unset parallax-image"
                           alt="Image"
                         />
                       </div>

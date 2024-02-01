@@ -4,8 +4,8 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import Image from "next/image";
 import Link from "next/link";
-import thumbOne from "@/public/images/service/thumb-one.png";
-import thumbTwo from "@/public/images/service/thumb-two.png";
+import AvtarOne from "@/public/images/Careers/SD-AvtarOne.png";
+import AvtarTwo from "@/public/images/Careers/SD-AvtarTwo.png";
 
 const ServiceBanner = () => {
   useEffect(() => {
@@ -110,10 +110,10 @@ const ServiceBanner = () => {
         <span className="arrow"></span>
       </Link>
       <div className="thumb-one">
-        <Image src={thumbOne} alt="Image" />
+        <Image src={AvtarOne} alt="Image" />
       </div>
       <div className="thumb-two">
-        <Image src={thumbTwo} alt="Image" />
+        <Image src={AvtarTwo} alt="Image" />
       </div>
     </section>
   );

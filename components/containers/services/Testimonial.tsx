@@ -5,19 +5,19 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import one from "@/public/images/testimonial/avatar-one.png";
-import two from "@/public/images/testimonial/avatar-two.png";
-import three from "@/public/images/testimonial/avatar-three.png";
-import four from "@/public/images/testimonial/avatar-four.png";
-import five from "@/public/images/testimonial/avatar-five.png";
+import one from "@/public/images/testimonial/ClientOne.png";
+import two from "@/public/images/testimonial/ClientTwo.png";
+import three from "@/public/images/testimonial/ClientThree.png";
+import four from "@/public/images/testimonial/ClientFour.png";
+import five from "@/public/images/testimonial/ClientFive.png";
 
 const Testimonial = () => {
   const imageUrls = [
-    { url: "images/testimonial/avatar-one.png" },
-    { url: "images/testimonial/avatar-two.png" },
-    { url: "images/testimonial/avatar-three.png" },
-    { url: "images/testimonial/avatar-four.png" },
-    { url: "images/testimonial/avatar-five.png" },
+    { url: "images/testimonial/ClientOne.png" },
+    { url: "images/testimonial/ClientTwo.png" },
+    { url: "images/testimonial/ClientThree.png" },
+    { url: "images/testimonial/ClientFour.png" },
+    { url: "images/testimonial/ClientFive.png" },
   ];
 
   const [totalSlides, setTotalSlides] = useState(0);
@@ -66,8 +66,8 @@ const Testimonial = () => {
                     },
                   }}
                   navigation={{
-                    nextEl: ".prev-testimonial",
-                    prevEl: ".next-testimonial",
+                    nextEl: ".next-testimonial",
+                    prevEl: ".prev-testimonial",
                   }}
                   onSwiper={(swiper) => setTotalSlides(swiper.slides.length)}
                   onSlideChange={(swiper) =>
@@ -96,12 +96,10 @@ const Testimonial = () => {
                       </div>
                       <blockquote className="text-xl cur-lg mt-40">
                         <q>
-                          Lorem ipsum dolor sit amet consectetur. Elementum nec
-                          auctor diam tincidunt nisl malesuada pharetra pulvinar
-                          ac. Tellus gravida vestibulum nullam rutrum arcu
-                          risus. Tellus nulla volutpat mollis at egestas at to
-                          milo congue condimentum, mollis at egestas at to milo
-                          congue condimentum.
+                          I always have the best experience with Sirigiri
+                          Software Solutions. Their innovative approach to IT
+                          challenges is Oustanding, which stand them as Unique
+                          from other Companies.
                         </q>
                       </blockquote>
                     </div>
@@ -128,12 +126,13 @@ const Testimonial = () => {
                       </div>
                       <blockquote className="text-xl cur-lg mt-40">
                         <q>
-                          Lorem ipsum dolor sit amet consectetur. Elementum nec
-                          auctor diam tincidunt nisl malesuada pharetra pulvinar
-                          ac. Tellus gravida vestibulum nullam rutrum arcu
-                          risus. Tellus nulla volutpat mollis at egestas at to
-                          milo congue condimentum, mollis at egestas at to milo
-                          congue condimentum.
+                          Sirigiri Software Solutions always comes through
+                          quickly resolving our IT issues - including an ongoing
+                          problem that several other consultants had been unable
+                          to fix at our largest operating company. They are
+                          Standalone with their{" "}
+                          <b>Exceptional Service Quality</b> and{" "}
+                          <b>Customer Support and Responsiveness</b>
                         </q>
                       </blockquote>
                     </div>
@@ -160,12 +159,9 @@ const Testimonial = () => {
                       </div>
                       <blockquote className="text-xl cur-lg mt-40">
                         <q>
-                          Lorem ipsum dolor sit amet consectetur. Elementum nec
-                          auctor diam tincidunt nisl malesuada pharetra pulvinar
-                          ac. Tellus gravida vestibulum nullam rutrum arcu
-                          risus. Tellus nulla volutpat mollis at egestas at to
-                          milo congue condimentum, mollis at egestas at to milo
-                          congue condimentum.
+                          Always Prompt, Good Communication, They consistently
+                          inform and involve us throughout every phase of the{" "}
+                          <b>Project.</b> Their team's ability to manage time effeciently was impressive.
                         </q>
                       </blockquote>
                     </div>
@@ -192,12 +188,10 @@ const Testimonial = () => {
                       </div>
                       <blockquote className="text-xl cur-lg mt-40">
                         <q>
-                          Lorem ipsum dolor sit amet consectetur. Elementum nec
-                          auctor diam tincidunt nisl malesuada pharetra pulvinar
-                          ac. Tellus gravida vestibulum nullam rutrum arcu
-                          risus. Tellus nulla volutpat mollis at egestas at to
-                          milo congue condimentum, mollis at egestas at to milo
-                          congue condimentum.
+                          They have been innovative, responsive, trusty and
+                          worked seamlessly with <b>us.</b> They've stood by us
+                          through thick and thin, proving that their support
+                          goes beyond just Business.
                         </q>
                       </blockquote>
                     </div>
@@ -224,12 +218,9 @@ const Testimonial = () => {
                       </div>
                       <blockquote className="text-xl cur-lg mt-40">
                         <q>
-                          Lorem ipsum dolor sit amet consectetur. Elementum nec
-                          auctor diam tincidunt nisl malesuada pharetra pulvinar
-                          ac. Tellus gravida vestibulum nullam rutrum arcu
-                          risus. Tellus nulla volutpat mollis at egestas at to
-                          milo congue condimentum, mollis at egestas at to milo
-                          congue condimentum.
+                          Awesome!, They are exceptional in Time management and
+                          Productivity, They are delivered high-quality IT
+                          solutions within <b>tight deadlines.</b> Despite the tight schedules, the quality of work was never compramised.
                         </q>
                       </blockquote>
                     </div>

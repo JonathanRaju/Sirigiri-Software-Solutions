@@ -4,8 +4,8 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import Image from "next/image";
 import Link from "next/link";
-import thumbOne from "@/public/images/service/thumb-one.png";
-import thumbTwo from "@/public/images/service/thumb-two.png";
+import thumbOne from "@/public/images/service/AI_Left.png";
+import thumbTwo from "@/public/images/service/AI_Right.png";
 
 const ServiceDetailsBanner = () => {
   useEffect(() => {

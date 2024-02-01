@@ -9,6 +9,7 @@ import location from "@/public/images/footer/location.png";
 import phone from "@/public/images/footer/phone.png";
 import gmail from "@/public/images/footer/gmail.png";
 import arrow from "@/public/images/footer/arrow.png";
+import problemSolving from "@/public/images/PSolving.png"
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -63,7 +64,7 @@ const Footer = () => {
               <div className="parallax-image-wrap">
                 <div className="parallax-image-inner">
                   <Image
-                    src={thumb}
+                    src={problemSolving}
                     priority
                     className="unset parallax-image"
                     alt="Image"
