@@ -161,7 +161,7 @@ const Testimonial = () => {
                         <q>
                           Always Prompt, Good Communication, They consistently
                           inform and involve us throughout every phase of the{" "}
-                          <b>Project.</b> Their team's ability to manage time effeciently was impressive.
+                          <b>Project.</b> Their team&apos;s ability to manage time effeciently was impressive.
                         </q>
                       </blockquote>
                     </div>
@@ -189,7 +189,7 @@ const Testimonial = () => {
                       <blockquote className="text-xl cur-lg mt-40">
                         <q>
                           They have been innovative, responsive, trusty and
-                          worked seamlessly with <b>us.</b> They've stood by us
+                          worked seamlessly with <b>us.</b> They&apos;ve stood by us
                           through thick and thin, proving that their support
                           goes beyond just Business.
                         </q>

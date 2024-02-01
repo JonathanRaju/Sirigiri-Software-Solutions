@@ -257,7 +257,7 @@ const Transform = () => {
                         Innovative and Customized Solutions
                       </h4>
                       <p className="cur-lg">
-                        Our startup thrives on innovation. We don't just offer
+                        Our startup thrives on innovation. We don&apos;t just offer
                         off-the-shelf products; we work closely with our clients
                         to understand their unique challenges and tailor our
                         software solutions to meet these specific needs.

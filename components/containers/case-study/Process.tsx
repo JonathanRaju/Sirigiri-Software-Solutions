@@ -46,14 +46,14 @@ const Process = () => {
                   Feature Engineering
                 </h5>
                 <p className="cur-lg text-quinary">
-                  Feature engineering involves selecting, creating, or transforming the relevant features (attributes) from the data that will be used as input for the AI model. Effective feature engineering can significantly impact the model's performance.
+                  Feature engineering involves selecting, creating, or transforming the relevant features (attributes) from the data that will be used as input for the AI model. Effective feature engineering can significantly impact the model&apos;s performance.
                 </p>
               </div>
               <div className="process__single">
                 <span className="op-text text-white mb-40 cur-lg">05</span>
                 <h5 className="mt-8 text-white mb-24 title-anim">Model Selection</h5>
                 <p className="cur-lg text-quinary">
-                  Choose an appropriate machine learning or deep learning model architecture based on the problem you're trying to solve. Different tasks may require different types of models, such as decision trees, neural networks, or support vector machines.
+                  Choose an appropriate machine learning or deep learning model architecture based on the problem you&apos;re trying to solve. Different tasks may require different types of models, such as decision trees, neural networks, or support vector machines.
                 </p>
               </div>
             </div>

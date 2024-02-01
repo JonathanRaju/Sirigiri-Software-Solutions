@@ -79,7 +79,7 @@ const LatestPost = () => {
                         <h5 className="mt-8 fw-5 text-secondary">
                           <Link href="blog-single">
                             Lifelong learning, extending beyond formal
-                            education, is crucial in today's rapidly changing
+                            education, is crucial in today&apos;s rapidly changing
                             world.
                           </Link>
                         </h5>
@@ -147,7 +147,7 @@ const LatestPost = () => {
                         <h5 className="mt-8 fw-5 text-secondary">
                           <Link href="blog-single">
                             Life insurance provides financial security to an
-                            individual's family in the event of their untimely
+                            individual&apos;s family in the event of their untimely
                             passing.
                           </Link>
                         </h5>
@@ -214,7 +214,7 @@ const LatestPost = () => {
                         <h5 className="mt-8 fw-5 text-secondary">
                           <Link href="blog-single">
                             Lifelong learning, extending beyond formal
-                            education, is crucial in today's rapidly changing
+                            education, is crucial in today&apos;s rapidly changing
                           </Link>
                         </h5>
                       </div>
@@ -281,7 +281,7 @@ const LatestPost = () => {
                         <h5 className="mt-8 fw-5 text-secondary">
                           <Link href="blog-single">
                           Life insurance provides financial security to an
-                            individual's family in the event of their untimely
+                            individual&apos;s family in the event of their untimely
                             passing.
                           </Link>
                         </h5>
