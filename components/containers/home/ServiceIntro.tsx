@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import thumb from "@/public/images/service/one.png";
+import Digital_Service from "@/public/images/service/Digital_service.png";
 
 const ServiceIntro = () => {
   return (
@@ -13,7 +13,7 @@ const ServiceIntro = () => {
                 <div className="parallax-image-wrap">
                   <div className="parallax-image-inner">
                     <Image
-                      src={thumb}
+                      src={Digital_Service}
                       className="w-100 mh-300 parallax-image"
                       alt="Image"
                     />

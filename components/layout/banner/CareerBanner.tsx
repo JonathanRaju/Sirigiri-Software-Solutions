@@ -5,6 +5,7 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import Image from "next/image";
 import Link from "next/link";
 import thumb from "@/public/images/banner/cp-thumb.png";
+import careerGrowth from "@/public/images/Careers/CareerGrowth.png"
 
 const CareerBanner = () => {
   useEffect(() => {
@@ -52,7 +53,7 @@ const CareerBanner = () => {
               </div>
               <div className="col-12 col-sm-1 col-md-2 col-xl-4 col-xxl-3">
                 <div className="cp-banner-thumb dir-rtl">
-                  <Image src={thumb} className="mh-300 unset" alt="Image" />
+                  <Image src={careerGrowth} className="mh-300 unset" alt="Image" />
                 </div>
               </div>
             </div>

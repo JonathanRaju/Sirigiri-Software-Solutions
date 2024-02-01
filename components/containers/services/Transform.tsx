@@ -6,7 +6,7 @@ import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import thumb from "@/public/images/transform-thumb.png";
+import Transform_Business from "@/public/images/Transform_Business.png";
 import teamThumb from "@/public/images/team-thumb.png";
 
 const Transform = () => {
@@ -41,9 +41,11 @@ const Transform = () => {
                 Transform your business using Artificial Intelligence services.
               </h2>
               <p className="cur-lg">
-                Lorem ipsum dolor sit amet consectetur. Ac cursus aliquet mi
-                egestas faucibus et scelerisque. Tristique id vel at in in.
-                Viverra auctor feugiat vel orci volutpat quis eget nec.
+                AI can analyze vast amounts of customer data to provide valuable
+                insights. AI automates data entry, processing, and reporting
+                tasks, reducing human errors and increasing efficiency. Protect
+                your business and customers from cyber threats and
+                financial fraud.
               </p>
               <div className="anime d-none d-lg-flex mt-40">
                 <span className="foot-fade"></span>
@@ -60,7 +62,7 @@ const Transform = () => {
               <div className="parallax-image-wrap">
                 <div className="parallax-image-inner">
                   <Image
-                    src={thumb}
+                    src={Transform_Business}
                     className="w-100 parallax-image mh-300"
                     alt="Image"
                   />
@@ -98,9 +100,9 @@ const Transform = () => {
                         Boost income
                       </h5>
                       <p className="cur-lg">
-                        Lorem ipsum dolor sit amet consectetur. Aliquet urna
-                        diam egestas et. Porttitor congue aenean euismod at
-                        posuere nam sceleris.
+                        Use predictive analytics to identify the best times and
+                        channels for targeting specific customer segments with
+                        tailored marketing messages.
                       </p>
                     </div>
                   </SwiperSlide>
@@ -110,9 +112,10 @@ const Transform = () => {
                         Reduce Costs
                       </h5>
                       <p className="cur-lg">
-                        Lorem ipsum dolor sit amet consectetur. Aliquet urna
-                        diam egestas et. Porttitor congue aenean euismod at
-                        posuere nam sceleris.
+                        AI-powered chatbots and virtual assistants to handle
+                        routine customer inquiries. Avoid overstocking and
+                        understocking issues. Reduce call duration and improve
+                        customer satisfaction.
                       </p>
                     </div>
                   </SwiperSlide>
@@ -122,8 +125,9 @@ const Transform = () => {
                         Find new clients and customers
                       </h5>
                       <p className="cur-lg">
-                        Lorem ipsum dolor sit amet consectetur. Aliquet urna
-                        diam egestas et. Porttitor congue aenean.
+                        AI-powered lead generation tools can scan the internet,
+                        social media, and other sources to identify potential
+                        clients who match your ideal customer profile.
                       </p>
                     </div>
                   </SwiperSlide>
@@ -133,8 +137,8 @@ const Transform = () => {
                         Auto mate workflows
                       </h5>
                       <p className="cur-lg">
-                        Lorem ipsum dolor sit amet consectetur. Aliquet urna
-                        diam egestas et. Porttitor congue aenean euismod.
+                        Implement AI-driven CRM (Customer Relationship
+                        Management) systems to automate lead scoring, nurturing.
                       </p>
                     </div>
                   </SwiperSlide>
@@ -144,8 +148,10 @@ const Transform = () => {
                         Maximize productivity
                       </h5>
                       <p className="cur-lg">
-                        Lorem ipsum dolor sit amet consectetur. Aliquet urna
-                        diam egestas et. Porttitor congue aenean euismod.
+                        Use Robotic Process Automation (RPA) bots to automate
+                        repetitive, rule-based tasks across software
+                        applications, such as data entry, form filling, and
+                        report generation.
                       </p>
                     </div>
                   </SwiperSlide>
@@ -155,9 +161,9 @@ const Transform = () => {
                         Boost income
                       </h5>
                       <p className="cur-lg">
-                        Lorem ipsum dolor sit amet consectetur. Aliquet urna
-                        diam egestas et. Porttitor congue aenean euismod at
-                        posuere nam sceleris.
+                        Use predictive analytics to identify the best times and
+                        channels for targeting specific customer segments with
+                        tailored marketing messages.
                       </p>
                     </div>
                   </SwiperSlide>
@@ -167,9 +173,10 @@ const Transform = () => {
                         Reduce Costs
                       </h5>
                       <p className="cur-lg">
-                        Lorem ipsum dolor sit amet consectetur. Aliquet urna
-                        diam egestas et. Porttitor congue aenean euismod at
-                        posuere nam sceleris.
+                        AI-powered chatbots and virtual assistants to handle
+                        routine customer inquiries. Avoid overstocking and
+                        understocking issues. Reduce call duration and improve
+                        customer satisfaction.
                       </p>
                     </div>
                   </SwiperSlide>
@@ -179,8 +186,9 @@ const Transform = () => {
                         Find new clients and customers
                       </h5>
                       <p className="cur-lg">
-                        Lorem ipsum dolor sit amet consectetur. Aliquet urna
-                        diam egestas et. Porttitor congue aenean.
+                        AI-powered lead generation tools can scan the internet,
+                        social media, and other sources to identify potential
+                        clients who match your ideal customer profile.
                       </p>
                     </div>
                   </SwiperSlide>
@@ -190,8 +198,8 @@ const Transform = () => {
                         Auto mate workflows
                       </h5>
                       <p className="cur-lg">
-                        Lorem ipsum dolor sit amet consectetur. Aliquet urna
-                        diam egestas et. Porttitor congue aenean euismod.
+                        Implement AI-driven CRM (Customer Relationship
+                        Management) systems to automate lead scoring, nurturing.
                       </p>
                     </div>
                   </SwiperSlide>
@@ -201,8 +209,10 @@ const Transform = () => {
                         Maximize productivity
                       </h5>
                       <p className="cur-lg">
-                        Lorem ipsum dolor sit amet consectetur. Aliquet urna
-                        diam egestas et. Porttitor congue aenean euismod.
+                        Use Robotic Process Automation (RPA) bots to automate
+                        repetitive, rule-based tasks across software
+                        applications, such as data entry, form filling, and
+                        report generation.
                       </p>
                     </div>
                   </SwiperSlide>
@@ -233,8 +243,8 @@ const Transform = () => {
                   }}
                   className="team-slider"
                   navigation={{
-                    nextEl: ".prev-team",
-                    prevEl: ".next-team",
+                    nextEl: ".next-team",
+                    prevEl: ".prev-team",
                   }}
                   onSwiper={(swiper) => setTotalSlides(swiper.slides.length)}
                   onSlideChange={(swiper) =>
@@ -243,12 +253,14 @@ const Transform = () => {
                 >
                   <SwiperSlide>
                     <div className="team-single">
-                      <h4 className="mt-8 text-secondary mb-24">Expert Team</h4>
+                      <h4 className="mt-8 text-secondary mb-24">
+                        Innovative and Customized Solutions
+                      </h4>
                       <p className="cur-lg">
-                        Quisque varius malesuada dui, ut posuere purus gravida
-                        in. Phasellus ultricies ullamcorper mollis. Pellentesque
-                        varius lectus in massa placerat cursus. Donec in dictum
-                        nisl. In maximus posuere leo nec porttitor.
+                        Our startup thrives on innovation. We don't just offer
+                        off-the-shelf products; we work closely with our clients
+                        to understand their unique challenges and tailor our
+                        software solutions to meet these specific needs.
                       </p>
                     </div>
                   </SwiperSlide>
@@ -256,43 +268,64 @@ const Transform = () => {
                     <div className="team-single">
                       <h4 className="mt-8 text-secondary mb-24">Expert Team</h4>
                       <p className="cur-lg">
-                        Quisque varius malesuada dui, ut posuere purus gravida
-                        in. Phasellus ultricies ullamcorper mollis. Pellentesque
-                        varius lectus in massa placerat cursus. Donec in dictum
-                        nisl. In maximus posuere leo nec porttitor.
+                        Our team comprises industry experts with years of
+                        experience in software development and IT solutions.
+                        This diverse expertise allows us to approach problems
+                        from various angles and develop comprehensive,
+                        effective solutions.
                       </p>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className="team-single">
-                      <h4 className="mt-8 text-secondary mb-24">Expert Team</h4>
+                      <h4 className="mt-8 text-secondary mb-24">
+                        State-of-the-Art-Technology
+                      </h4>
                       <p className="cur-lg">
-                        Quisque varius malesuada dui, ut posuere purus gravida
-                        in. Phasellus ultricies ullamcorper mollis. Pellentesque
-                        varius lectus in massa placerat cursus. Donec in dictum
-                        nisl. In maximus posuere leo nec porttitor.
+                        We utilize cutting-edge technology in our software
+                        development, ensuring that our clients benefit from the
+                        latest advancements in AI, blockchain, cloud computing,
+                        and more. This approach not only future-proofs our
+                        solutions but also provides a competitive edge.
                       </p>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className="team-single">
-                      <h4 className="mt-8 text-secondary mb-24">Expert Team</h4>
+                      <h4 className="mt-8 text-secondary mb-24">
+                        Focus on User Experience
+                      </h4>
                       <p className="cur-lg">
-                        Quisque varius malesuada dui, ut posuere purus gravida
-                        in. Phasellus ultricies ullamcorper mollis. Pellentesque
-                        varius lectus in massa placerat cursus. Donec in dictum
-                        nisl. In maximus posuere leo nec porttitor.
+                        We prioritize user experience in our software design. By
+                        creating intuitive, user-friendly interfaces, we ensure
+                        that our solutions are accessible and easy to use,
+                        enhancing productivity and user satisfaction.
                       </p>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className="team-single">
-                      <h4 className="mt-8 text-secondary mb-24">Expert Team</h4>
+                      <h4 className="mt-8 text-secondary mb-24">
+                        Cost-Effective and Transparent Pricing
+                      </h4>
                       <p className="cur-lg">
-                        Quisque varius malesuada dui, ut posuere purus gravida
-                        in. Phasellus ultricies ullamcorper mollis. Pellentesque
-                        varius lectus in massa placerat cursus. Donec in dictum
-                        nisl. In maximus posuere leo nec porttitor.
+                        We offer competitive pricing models that provide
+                        excellent value. We believe in transparent pricing with
+                        no hidden costs, ensuring our clients can budget
+                        effectively and get the best ROI.
+                      </p>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="team-single">
+                      <h4 className="mt-8 text-secondary mb-24">
+                        Collaborative Approach
+                      </h4>
+                      <p className="cur-lg">
+                        We believe in collaboration and open communication with
+                        our clients. This approach allows us to align closely
+                        with your goals and ensures that the final product truly
+                        aligns with your vision and expectations.
                       </p>
                     </div>
                   </SwiperSlide>
