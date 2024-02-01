@@ -213,7 +213,7 @@ const LatestPost = () => {
                         </div>
                         <h5 className="mt-8 fw-5 text-secondary">
                           <Link href="blog-single">
-                          Lifelong learning, extending beyond formal
+                            Lifelong learning, extending beyond formal
                             education, is crucial in today's rapidly changing
                           </Link>
                         </h5>
