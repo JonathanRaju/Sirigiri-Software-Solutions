@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import thumb from "@/public/images/service/two.png";
-import thumbTwo from "@/public/images/service/three.png";
+import WhoweAre from "@/public/images/WhoWeAre.png";
+import TheWay from "@/public/images/HowWeWork.png";
 
 const AboutService = () => {
   return (
@@ -14,7 +15,7 @@ const AboutService = () => {
                 <div className="parallax-image-wrap">
                   <div className="parallax-image-inner">
                     <Image
-                      src={thumb}
+                      src={WhoweAre}
                       className="w-100 mh-300 parallax-image"
                       alt="Image"
                     />
@@ -69,7 +70,7 @@ const AboutService = () => {
                 <div className="parallax-image-wrap">
                   <div className="parallax-image-inner">
                     <Image
-                      src={thumbTwo}
+                      src={TheWay}
                       className="w-100 mh-300 parallax-image"
                       alt="Image"
                     />

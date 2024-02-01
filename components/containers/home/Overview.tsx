@@ -44,7 +44,7 @@ const Overview = () => {
                       <Link href="service-single">Artificial Intelligence</Link>
                     </h4>
                     <p className="text-tertiary">
-                      Lorem ipsum dolor sit amet consectetur.
+                      The simulation of human intelligence processes by machines, especially computer systems.
                     </p>
                   </div>
                   <div className="cta">
@@ -66,7 +66,7 @@ const Overview = () => {
                       <Link href="service-single">Product Design</Link>
                     </h4>
                     <p className="text-tertiary">
-                      Lorem ipsum dolor sit amet consectetur.
+                      Multidisciplinary field that involves the creation and development of physical products, system and user experiences.
                     </p>
                   </div>
                   <div className="cta">
@@ -90,7 +90,7 @@ const Overview = () => {
                       </Link>
                     </h4>
                     <p className="text-tertiary">
-                      Lorem ipsum dolor sit amet consectetur.
+                      Process of creating software applications that run on mobile devices, such as smartphones and tablets. 
                     </p>
                   </div>
                   <div className="cta">
@@ -114,7 +114,7 @@ const Overview = () => {
                       </Link>
                     </h4>
                     <p className="text-tertiary">
-                      Lorem ipsum dolor sit amet consectetur.
+                      Involves creating software applications that are accessible through web browsers.
                     </p>
                   </div>
                   <div className="cta">
@@ -136,7 +136,7 @@ const Overview = () => {
                       <Link href="service-single">Idea Evaluation</Link>
                     </h4>
                     <p className="text-tertiary">
-                      Lorem ipsum dolor sit amet consectetur.
+                      Crucial step in determining the viability and potential success of a business, project concept.
                     </p>
                   </div>
                   <div className="cta">

@@ -4,7 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
-import thumb from "@/public/images/banner/banner-two-thumb.png";
+import GrowthPartner from "@/public/images/GrowingPartner.png";
+
 
 const AboutBanner = () => {
   useEffect(() => {
@@ -66,8 +67,8 @@ const AboutBanner = () => {
               <div className="parallax-image-wrap">
                 <div className="parallax-image-inner">
                   <Image
-                    src={thumb}
-                    className="unset parallax-image mh-300"
+                    src={GrowthPartner}
+                    className="unset parallax-image mh-100"
                     alt="Image"
                   />
                 </div>

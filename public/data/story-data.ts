@@ -1,6 +1,7 @@
-import one from "@/public/images/story/one.png";
-import two from "@/public/images/story/two.png";
-import three from "@/public/images/story/three.png";
+import SuccessStoryOne from "@/public/images/story/success stories.png";
+import SuccessStoryTwo from "@/public/images/story/SuccessStoryTwo.png";
+import SuccessStoryThree from "@/public/images/story/SuccessStoryThree.png";
+import SuccessStoryFour from "@/public/images/story/SuccessStoryFour.png";
 
 export const storyData = [
   {
@@ -8,7 +9,7 @@ export const storyData = [
     destination: "alepaio.ai",
     title: "Alepaio.ai- Customer Discovery Session",
     subtitle: "IT TECHNOLOGY DUE DILIGENCE",
-    image: one,
+    image: SuccessStoryOne,
     path: "case-study-single",
   },
   {
@@ -16,7 +17,7 @@ export const storyData = [
     destination: "vamiton.Ai",
     title: "Vamiton - IT Project Management Training",
     subtitle: "PRODUCT DESIGN STRATEGY",
-    image: two,
+    image: SuccessStoryTwo,
     path: "case-study-single",
   },
   {
@@ -24,7 +25,7 @@ export const storyData = [
     destination: "mavination.Ai",
     title: "Mavination - Treating Cancer With AI-Powered Imaging Healthcare",
     subtitle: "IT TECHNOLOGY DUE DILIGENCE",
-    image: three,
+    image: SuccessStoryThree,
     path: "case-study-single",
   },
   {
@@ -32,7 +33,7 @@ export const storyData = [
     destination: "smartdevis.Ai",
     title: "Mavination -How We Delivered MVP For The Construction Document",
     subtitle: "PRODUCT DESIGN STRATEGY",
-    image: one,
+    image: SuccessStoryFour,
     path: "case-study-single",
   },
   {
@@ -40,7 +41,7 @@ export const storyData = [
     destination: "alepaio.ai",
     title: "Alepaio.ai- Customer Discovery Session",
     subtitle: "IT TECHNOLOGY DUE DILIGENCE",
-    image: two,
+    image: SuccessStoryOne,
     path: "case-study-single",
   },
 ];
